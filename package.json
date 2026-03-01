@@ -1,0 +1,23 @@
+{
+  "name": "qr-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v-art-ika22/QR-CODE.git"
+  },
+  "author": "vartika agnihotri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/v-art-ika22/QR-CODE/issues"
+  },
+  "homepage": "https://github.com/v-art-ika22/QR-CODE#readme",
+  "dependencies": {
+    "inquirer": "^13.3.0",
+    "qr-image": "^3.2.0"
+  }
+}
