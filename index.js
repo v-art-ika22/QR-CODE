@@ -16,10 +16,11 @@ inquirer
       console.log("The file has been saved!");
     });
   })
-  .catch((error) => {
+ .catch((error) => {
     if (error.isTtyError) {
-      
+      console.log("Error: Prompt couldn't be rendered in the current environment.");
     } else {
-      
+   
+      console.log("Something went wrong: ", error.message);
     }
   });
